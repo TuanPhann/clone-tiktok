@@ -1,5 +1,8 @@
+import { Icon } from "../../icon"
+
+
 function Home() {
-    return <div>This is home</div>;
+    return <div><Icon /></div>;
 }
 
 export default Home;
