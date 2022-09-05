@@ -1,0 +1,30 @@
+.btnUpload {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 6px 14px;
+    color: #161823;
+    background-color: transparent;
+    border: 1px solid var(--search-color);
+    border-radius: 3px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}
+
+.btnLogin {
+    background-color: var(--primary-color);
+    color: var(--while-color);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 14px;
+    margin-left: 16px;
+
+    &:hover {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)), #fe2c55;
+    }
+}
