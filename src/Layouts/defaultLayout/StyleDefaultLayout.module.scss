@@ -10,11 +10,17 @@
 
     .wrap {
         display: flex;
+        width: 1150px;
+        margin: 0 auto;
 
         .sidebar {
-            width: 30%;
+            width: 30.4%;
             background-color: aqua;
             height: calc(100vh - 100px);
+        }
+        .content {
+            width: 70%;
+            background-color: black;
         }
     }
 }

@@ -1,4 +1,6 @@
 import React from 'react';
-import { Lock } from '@styled-icons/material/Lock';
+// eslint-disable-next-line no-unused-vars
+import styled from 'styled-components';
+import { Steam } from '@styled-icons/boxicons-logos/Steam';
 
-export const App = () => <Lock />;
+export const App = () => <Steam />;
