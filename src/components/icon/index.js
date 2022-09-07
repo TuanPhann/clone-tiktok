@@ -4,6 +4,12 @@ import styled from 'styled-components';
 import { Search } from '@styled-icons/evil/Search';
 import { ThreeDotsVertical } from '@styled-icons/bootstrap/ThreeDotsVertical';
 import { Add } from '@styled-icons/fluentui-system-filled/Add';
+import { PlayFill } from '@styled-icons/bootstrap/PlayFill';
+import { VolumeUpOutline } from '@styled-icons/evaicons-outline/VolumeUpOutline';
+import { Flag } from '@styled-icons/feather/Flag';
+import { Heart } from '@styled-icons/boxicons-solid/Heart';
+import { MessageSquare } from '@styled-icons/evaicons-solid/MessageSquare';
+import { Share } from '@styled-icons/open-iconic/Share';
 
 //btn search  input
 const SearchIcon = styled(Search)`
@@ -107,4 +113,65 @@ export const IconKeyBourd = ({ className, width = '20px', height = '20px' }) => 
             ></path>
         </svg>
     );
+};
+
+// icon play video
+const PlayFillIcon = styled(PlayFill)`
+    width: 30px;
+    height: 30px;
+`;
+
+export const IconPlayFill = () => {
+    return <PlayFillIcon />;
+};
+
+// icon volume video
+const VolumeUpOutlineIcon = styled(VolumeUpOutline)`
+    width: 30px;
+    height: 30px;
+`;
+
+export const IconVolumeUpOutline = () => {
+    return <VolumeUpOutlineIcon />;
+};
+
+// icon flag video
+const FlagIcon = styled(Flag)`
+    width: 14px;
+    height: 14px;
+    margin-right: 4px;
+`;
+
+export const IconFlag = () => {
+    return <FlagIcon />;
+};
+
+// icon heart video
+const HeartIcon = styled(Heart)`
+    width: 24px;
+    height: 24px;
+`;
+
+export const IconHeart = () => {
+    return <HeartIcon />;
+};
+
+// icon messeage video
+const MessageSquareIcon = styled(MessageSquare)`
+    width: 24px;
+    height: 24px;
+`;
+
+export const IconMessageSquare = () => {
+    return <MessageSquareIcon />;
+};
+
+// icon share video
+const ShareIcon = styled(Share)`
+    width: 24px;
+    height: 24px;
+`;
+
+export const IconShare = () => {
+    return <ShareIcon />;
 };
