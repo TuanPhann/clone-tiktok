@@ -18,12 +18,14 @@
         justify-content: space-between;
 
         .sidebar {
-            width: 30.4%;
+            width: 356px;
             height: calc(100vh - 100px);
+            position: fixed;
+            top: 60px;
         }
         .content {
             width: 692px;
-            margin: 0 16px;
+            margin-left: 425px;
             padding-top: 24px;
         }
     }

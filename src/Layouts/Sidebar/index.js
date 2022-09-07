@@ -11,16 +11,16 @@ function Sidebar() {
         <div className={cx('wrap')}>
             <div className={cx('header')}>
                 <NavLink to="/" className={cx('navlink')}>
-                    <IconHome />
+                    <IconHome className="iconSidebar" />
                     <h2>Dành cho bạn</h2>
                 </NavLink>
                 <NavLink to="/following" className={cx('navlink')}>
-                    <IconFollowing />
+                    <IconFollowing className="iconSidebar" />
                     <h2>Đang Follow</h2>
                 </NavLink>
                 <NavLink to="/live" className={cx('navlink')}>
                     <IconLive />
-                    <h2>LIVE</h2>
+                    <h2>Live</h2>
                 </NavLink>
             </div>
             <div className={cx('login')}>

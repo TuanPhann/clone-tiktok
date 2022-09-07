@@ -1,7 +1,7 @@
 export const DataHome = [
     {
         id: 1,
-        url: 'https://v16-webapp.tiktok.com/93a498765a3729082a81d4e793c0c0d1/63185907/video/tos/useast2a/tos-useast2a-pve-0037c001-aiso/52f7625b2ee3459e96cf5ef357709b40/?a=1988&ch=0&cr=0&dr=0&lr=tiktok&cd=0%7C0%7C1%7C0&cv=1&br=2468&bt=1234&cs=0&ds=3&ft=z_piDPWT2NvjVFxdSozfuCYQFAe4nRQjlj-~ItOB&mime_type=video_mp4&qs=0&rc=aDQ7aDY2M2UzZGhpN2U7M0BpM3Znbjo6Zm95ZjMzZjgzM0AtXi1gMGJgNS8xMWJiLWIwYSM0LV8ycjRfaDRgLS1kL2Nzcw%3D%3D&l=20220907024018010245248003036B4F5C&btag=80000',
+        url: require('../Datahome/video/video1.mp4'),
         image: require('../Datahome/avatar/img1.jpg'),
         nickName: 'hoathinhdaula',
         title: 'Đấu la Đại Lục',
@@ -13,7 +13,7 @@ export const DataHome = [
     },
     {
         id: 2,
-        url: 'https://v16-webapp.tiktok.com/93a498765a3729082a81d4e793c0c0d1/63185907/video/tos/useast2a/tos-useast2a-pve-0037c001-aiso/52f7625b2ee3459e96cf5ef357709b40/?a=1988&ch=0&cr=0&dr=0&lr=tiktok&cd=0%7C0%7C1%7C0&cv=1&br=2468&bt=1234&cs=0&ds=3&ft=z_piDPWT2NvjVFxdSozfuCYQFAe4nRQjlj-~ItOB&mime_type=video_mp4&qs=0&rc=aDQ7aDY2M2UzZGhpN2U7M0BpM3Znbjo6Zm95ZjMzZjgzM0AtXi1gMGJgNS8xMWJiLWIwYSM0LV8ycjRfaDRgLS1kL2Nzcw%3D%3D&l=20220907024018010245248003036B4F5C&btag=80000',
+        url: require('../Datahome/video/video1.mp4'),
         image: require('../Datahome/avatar/img2.jpg'),
         nickName: 'hoathinhdaula',
         title: 'Đấu la Đại Lục',
@@ -25,7 +25,7 @@ export const DataHome = [
     },
     {
         id: 3,
-        url: 'https://v16-webapp.tiktok.com/93a498765a3729082a81d4e793c0c0d1/63185907/video/tos/useast2a/tos-useast2a-pve-0037c001-aiso/52f7625b2ee3459e96cf5ef357709b40/?a=1988&ch=0&cr=0&dr=0&lr=tiktok&cd=0%7C0%7C1%7C0&cv=1&br=2468&bt=1234&cs=0&ds=3&ft=z_piDPWT2NvjVFxdSozfuCYQFAe4nRQjlj-~ItOB&mime_type=video_mp4&qs=0&rc=aDQ7aDY2M2UzZGhpN2U7M0BpM3Znbjo6Zm95ZjMzZjgzM0AtXi1gMGJgNS8xMWJiLWIwYSM0LV8ycjRfaDRgLS1kL2Nzcw%3D%3D&l=20220907024018010245248003036B4F5C&btag=80000',
+        url: require('../Datahome/video/video1.mp4'),
         image: require('../Datahome/avatar/img3.jpg'),
         nickName: 'hoathinhdaula',
         title: 'Đấu la Đại Lục',
@@ -37,7 +37,7 @@ export const DataHome = [
     },
     {
         id: 4,
-        url: 'https://v16-webapp.tiktok.com/93a498765a3729082a81d4e793c0c0d1/63185907/video/tos/useast2a/tos-useast2a-pve-0037c001-aiso/52f7625b2ee3459e96cf5ef357709b40/?a=1988&ch=0&cr=0&dr=0&lr=tiktok&cd=0%7C0%7C1%7C0&cv=1&br=2468&bt=1234&cs=0&ds=3&ft=z_piDPWT2NvjVFxdSozfuCYQFAe4nRQjlj-~ItOB&mime_type=video_mp4&qs=0&rc=aDQ7aDY2M2UzZGhpN2U7M0BpM3Znbjo6Zm95ZjMzZjgzM0AtXi1gMGJgNS8xMWJiLWIwYSM0LV8ycjRfaDRgLS1kL2Nzcw%3D%3D&l=20220907024018010245248003036B4F5C&btag=80000',
+        url: require('../Datahome/video/video1.mp4'),
         image: require('../Datahome/avatar/img4.jpg'),
         nickName: 'hoathinhdaula',
         title: 'Đấu la Đại Lục',
@@ -49,7 +49,7 @@ export const DataHome = [
     },
     {
         id: 5,
-        url: 'https://v16-webapp.tiktok.com/93a498765a3729082a81d4e793c0c0d1/63185907/video/tos/useast2a/tos-useast2a-pve-0037c001-aiso/52f7625b2ee3459e96cf5ef357709b40/?a=1988&ch=0&cr=0&dr=0&lr=tiktok&cd=0%7C0%7C1%7C0&cv=1&br=2468&bt=1234&cs=0&ds=3&ft=z_piDPWT2NvjVFxdSozfuCYQFAe4nRQjlj-~ItOB&mime_type=video_mp4&qs=0&rc=aDQ7aDY2M2UzZGhpN2U7M0BpM3Znbjo6Zm95ZjMzZjgzM0AtXi1gMGJgNS8xMWJiLWIwYSM0LV8ycjRfaDRgLS1kL2Nzcw%3D%3D&l=20220907024018010245248003036B4F5C&btag=80000',
+        url: require('../Datahome/video/video1.mp4'),
         image: require('../Datahome/avatar/img5.jpg'),
         nickName: 'hoathinhdaula',
         title: 'Đấu la Đại Lục',
@@ -61,7 +61,7 @@ export const DataHome = [
     },
     {
         id: 6,
-        url: 'https://v16-webapp.tiktok.com/93a498765a3729082a81d4e793c0c0d1/63185907/video/tos/useast2a/tos-useast2a-pve-0037c001-aiso/52f7625b2ee3459e96cf5ef357709b40/?a=1988&ch=0&cr=0&dr=0&lr=tiktok&cd=0%7C0%7C1%7C0&cv=1&br=2468&bt=1234&cs=0&ds=3&ft=z_piDPWT2NvjVFxdSozfuCYQFAe4nRQjlj-~ItOB&mime_type=video_mp4&qs=0&rc=aDQ7aDY2M2UzZGhpN2U7M0BpM3Znbjo6Zm95ZjMzZjgzM0AtXi1gMGJgNS8xMWJiLWIwYSM0LV8ycjRfaDRgLS1kL2Nzcw%3D%3D&l=20220907024018010245248003036B4F5C&btag=80000',
+        url: require('../Datahome/video/video1.mp4'),
         image: require('../Datahome/avatar/img6.jpg'),
         nickName: 'hoathinhdaula',
         title: 'Đấu la Đại Lục',
@@ -73,7 +73,7 @@ export const DataHome = [
     },
     {
         id: 7,
-        url: 'https://v16-webapp.tiktok.com/93a498765a3729082a81d4e793c0c0d1/63185907/video/tos/useast2a/tos-useast2a-pve-0037c001-aiso/52f7625b2ee3459e96cf5ef357709b40/?a=1988&ch=0&cr=0&dr=0&lr=tiktok&cd=0%7C0%7C1%7C0&cv=1&br=2468&bt=1234&cs=0&ds=3&ft=z_piDPWT2NvjVFxdSozfuCYQFAe4nRQjlj-~ItOB&mime_type=video_mp4&qs=0&rc=aDQ7aDY2M2UzZGhpN2U7M0BpM3Znbjo6Zm95ZjMzZjgzM0AtXi1gMGJgNS8xMWJiLWIwYSM0LV8ycjRfaDRgLS1kL2Nzcw%3D%3D&l=20220907024018010245248003036B4F5C&btag=80000',
+        url: require('../Datahome/video/video1.mp4'),
         image: require('../Datahome/avatar/img7.jpg'),
         nickName: 'hoathinhdaula',
         title: 'Đấu la Đại Lục',
@@ -85,7 +85,7 @@ export const DataHome = [
     },
     {
         id: 8,
-        url: 'https://v16-webapp.tiktok.com/93a498765a3729082a81d4e793c0c0d1/63185907/video/tos/useast2a/tos-useast2a-pve-0037c001-aiso/52f7625b2ee3459e96cf5ef357709b40/?a=1988&ch=0&cr=0&dr=0&lr=tiktok&cd=0%7C0%7C1%7C0&cv=1&br=2468&bt=1234&cs=0&ds=3&ft=z_piDPWT2NvjVFxdSozfuCYQFAe4nRQjlj-~ItOB&mime_type=video_mp4&qs=0&rc=aDQ7aDY2M2UzZGhpN2U7M0BpM3Znbjo6Zm95ZjMzZjgzM0AtXi1gMGJgNS8xMWJiLWIwYSM0LV8ycjRfaDRgLS1kL2Nzcw%3D%3D&l=20220907024018010245248003036B4F5C&btag=80000',
+        url: require('../Datahome/video/video1.mp4'),
         image: require('../Datahome/avatar/img8.jpg'),
         nickName: 'hoathinhdaula',
         title: 'Đấu la Đại Lục',
@@ -97,7 +97,7 @@ export const DataHome = [
     },
     {
         id: 9,
-        url: 'https://v16-webapp.tiktok.com/93a498765a3729082a81d4e793c0c0d1/63185907/video/tos/useast2a/tos-useast2a-pve-0037c001-aiso/52f7625b2ee3459e96cf5ef357709b40/?a=1988&ch=0&cr=0&dr=0&lr=tiktok&cd=0%7C0%7C1%7C0&cv=1&br=2468&bt=1234&cs=0&ds=3&ft=z_piDPWT2NvjVFxdSozfuCYQFAe4nRQjlj-~ItOB&mime_type=video_mp4&qs=0&rc=aDQ7aDY2M2UzZGhpN2U7M0BpM3Znbjo6Zm95ZjMzZjgzM0AtXi1gMGJgNS8xMWJiLWIwYSM0LV8ycjRfaDRgLS1kL2Nzcw%3D%3D&l=20220907024018010245248003036B4F5C&btag=80000',
+        url: require('../Datahome/video/video1.mp4'),
         image: require('../Datahome/avatar/img9.jpg'),
         nickName: 'hoathinhdaula',
         title: 'Đấu la Đại Lục',
@@ -109,7 +109,7 @@ export const DataHome = [
     },
     {
         id: 10,
-        url: 'https://v16-webapp.tiktok.com/93a498765a3729082a81d4e793c0c0d1/63185907/video/tos/useast2a/tos-useast2a-pve-0037c001-aiso/52f7625b2ee3459e96cf5ef357709b40/?a=1988&ch=0&cr=0&dr=0&lr=tiktok&cd=0%7C0%7C1%7C0&cv=1&br=2468&bt=1234&cs=0&ds=3&ft=z_piDPWT2NvjVFxdSozfuCYQFAe4nRQjlj-~ItOB&mime_type=video_mp4&qs=0&rc=aDQ7aDY2M2UzZGhpN2U7M0BpM3Znbjo6Zm95ZjMzZjgzM0AtXi1gMGJgNS8xMWJiLWIwYSM0LV8ycjRfaDRgLS1kL2Nzcw%3D%3D&l=20220907024018010245248003036B4F5C&btag=80000',
+        url: require('../Datahome/video/video1.mp4'),
         image: require('../Datahome/avatar/img10.jpg'),
         nickName: 'hoathinhdaula',
         title: 'Đấu la Đại Lục',
@@ -121,7 +121,7 @@ export const DataHome = [
     },
     {
         id: 11,
-        url: 'https://v16-webapp.tiktok.com/93a498765a3729082a81d4e793c0c0d1/63185907/video/tos/useast2a/tos-useast2a-pve-0037c001-aiso/52f7625b2ee3459e96cf5ef357709b40/?a=1988&ch=0&cr=0&dr=0&lr=tiktok&cd=0%7C0%7C1%7C0&cv=1&br=2468&bt=1234&cs=0&ds=3&ft=z_piDPWT2NvjVFxdSozfuCYQFAe4nRQjlj-~ItOB&mime_type=video_mp4&qs=0&rc=aDQ7aDY2M2UzZGhpN2U7M0BpM3Znbjo6Zm95ZjMzZjgzM0AtXi1gMGJgNS8xMWJiLWIwYSM0LV8ycjRfaDRgLS1kL2Nzcw%3D%3D&l=20220907024018010245248003036B4F5C&btag=80000',
+        url: require('../Datahome/video/video1.mp4'),
         image: require('../Datahome/avatar/img1.jpg'),
         nickName: 'hoathinhdaula',
         title: 'Đấu la Đại Lục',
@@ -133,7 +133,7 @@ export const DataHome = [
     },
     {
         id: 12,
-        url: 'https://v16-webapp.tiktok.com/93a498765a3729082a81d4e793c0c0d1/63185907/video/tos/useast2a/tos-useast2a-pve-0037c001-aiso/52f7625b2ee3459e96cf5ef357709b40/?a=1988&ch=0&cr=0&dr=0&lr=tiktok&cd=0%7C0%7C1%7C0&cv=1&br=2468&bt=1234&cs=0&ds=3&ft=z_piDPWT2NvjVFxdSozfuCYQFAe4nRQjlj-~ItOB&mime_type=video_mp4&qs=0&rc=aDQ7aDY2M2UzZGhpN2U7M0BpM3Znbjo6Zm95ZjMzZjgzM0AtXi1gMGJgNS8xMWJiLWIwYSM0LV8ycjRfaDRgLS1kL2Nzcw%3D%3D&l=20220907024018010245248003036B4F5C&btag=80000',
+        url: require('../Datahome/video/video1.mp4'),
         image: require('../Datahome/avatar/img2.jpg'),
         nickName: 'hoathinhdaula',
         title: 'Đấu la Đại Lục',
@@ -145,7 +145,7 @@ export const DataHome = [
     },
     {
         id: 13,
-        url: 'https://v16-webapp.tiktok.com/93a498765a3729082a81d4e793c0c0d1/63185907/video/tos/useast2a/tos-useast2a-pve-0037c001-aiso/52f7625b2ee3459e96cf5ef357709b40/?a=1988&ch=0&cr=0&dr=0&lr=tiktok&cd=0%7C0%7C1%7C0&cv=1&br=2468&bt=1234&cs=0&ds=3&ft=z_piDPWT2NvjVFxdSozfuCYQFAe4nRQjlj-~ItOB&mime_type=video_mp4&qs=0&rc=aDQ7aDY2M2UzZGhpN2U7M0BpM3Znbjo6Zm95ZjMzZjgzM0AtXi1gMGJgNS8xMWJiLWIwYSM0LV8ycjRfaDRgLS1kL2Nzcw%3D%3D&l=20220907024018010245248003036B4F5C&btag=80000',
+        url: require('../Datahome/video/video1.mp4'),
         image: require('../Datahome/avatar/img3.jpg'),
         nickName: 'hoathinhdaula',
         title: 'Đấu la Đại Lục',
@@ -157,7 +157,7 @@ export const DataHome = [
     },
     {
         id: 14,
-        url: 'https://v16-webapp.tiktok.com/93a498765a3729082a81d4e793c0c0d1/63185907/video/tos/useast2a/tos-useast2a-pve-0037c001-aiso/52f7625b2ee3459e96cf5ef357709b40/?a=1988&ch=0&cr=0&dr=0&lr=tiktok&cd=0%7C0%7C1%7C0&cv=1&br=2468&bt=1234&cs=0&ds=3&ft=z_piDPWT2NvjVFxdSozfuCYQFAe4nRQjlj-~ItOB&mime_type=video_mp4&qs=0&rc=aDQ7aDY2M2UzZGhpN2U7M0BpM3Znbjo6Zm95ZjMzZjgzM0AtXi1gMGJgNS8xMWJiLWIwYSM0LV8ycjRfaDRgLS1kL2Nzcw%3D%3D&l=20220907024018010245248003036B4F5C&btag=80000',
+        url: require('../Datahome/video/video1.mp4'),
         image: require('../Datahome/avatar/img4.jpg'),
         nickName: 'hoathinhdaula',
         title: 'Đấu la Đại Lục',
@@ -169,7 +169,7 @@ export const DataHome = [
     },
     {
         id: 15,
-        url: 'https://v16-webapp.tiktok.com/93a498765a3729082a81d4e793c0c0d1/63185907/video/tos/useast2a/tos-useast2a-pve-0037c001-aiso/52f7625b2ee3459e96cf5ef357709b40/?a=1988&ch=0&cr=0&dr=0&lr=tiktok&cd=0%7C0%7C1%7C0&cv=1&br=2468&bt=1234&cs=0&ds=3&ft=z_piDPWT2NvjVFxdSozfuCYQFAe4nRQjlj-~ItOB&mime_type=video_mp4&qs=0&rc=aDQ7aDY2M2UzZGhpN2U7M0BpM3Znbjo6Zm95ZjMzZjgzM0AtXi1gMGJgNS8xMWJiLWIwYSM0LV8ycjRfaDRgLS1kL2Nzcw%3D%3D&l=20220907024018010245248003036B4F5C&btag=80000',
+        url: require('../Datahome/video/video1.mp4'),
         image: require('../Datahome/avatar/img5.jpg'),
         nickName: 'hoathinhdaula',
         title: 'Đấu la Đại Lục',
@@ -181,7 +181,7 @@ export const DataHome = [
     },
     {
         id: 16,
-        url: 'https://v16-webapp.tiktok.com/93a498765a3729082a81d4e793c0c0d1/63185907/video/tos/useast2a/tos-useast2a-pve-0037c001-aiso/52f7625b2ee3459e96cf5ef357709b40/?a=1988&ch=0&cr=0&dr=0&lr=tiktok&cd=0%7C0%7C1%7C0&cv=1&br=2468&bt=1234&cs=0&ds=3&ft=z_piDPWT2NvjVFxdSozfuCYQFAe4nRQjlj-~ItOB&mime_type=video_mp4&qs=0&rc=aDQ7aDY2M2UzZGhpN2U7M0BpM3Znbjo6Zm95ZjMzZjgzM0AtXi1gMGJgNS8xMWJiLWIwYSM0LV8ycjRfaDRgLS1kL2Nzcw%3D%3D&l=20220907024018010245248003036B4F5C&btag=80000',
+        url: require('../Datahome/video/video1.mp4'),
         image: require('../Datahome/avatar/img6.jpg'),
         nickName: 'hoathinhdaula',
         title: 'Đấu la Đại Lục',
@@ -193,7 +193,7 @@ export const DataHome = [
     },
     {
         id: 17,
-        url: 'https://v16-webapp.tiktok.com/93a498765a3729082a81d4e793c0c0d1/63185907/video/tos/useast2a/tos-useast2a-pve-0037c001-aiso/52f7625b2ee3459e96cf5ef357709b40/?a=1988&ch=0&cr=0&dr=0&lr=tiktok&cd=0%7C0%7C1%7C0&cv=1&br=2468&bt=1234&cs=0&ds=3&ft=z_piDPWT2NvjVFxdSozfuCYQFAe4nRQjlj-~ItOB&mime_type=video_mp4&qs=0&rc=aDQ7aDY2M2UzZGhpN2U7M0BpM3Znbjo6Zm95ZjMzZjgzM0AtXi1gMGJgNS8xMWJiLWIwYSM0LV8ycjRfaDRgLS1kL2Nzcw%3D%3D&l=20220907024018010245248003036B4F5C&btag=80000',
+        url: require('../Datahome/video/video1.mp4'),
         image: require('../Datahome/avatar/img7.jpg'),
         nickName: 'hoathinhdaula',
         title: 'Đấu la Đại Lục',
@@ -205,7 +205,7 @@ export const DataHome = [
     },
     {
         id: 18,
-        url: 'https://v16-webapp.tiktok.com/93a498765a3729082a81d4e793c0c0d1/63185907/video/tos/useast2a/tos-useast2a-pve-0037c001-aiso/52f7625b2ee3459e96cf5ef357709b40/?a=1988&ch=0&cr=0&dr=0&lr=tiktok&cd=0%7C0%7C1%7C0&cv=1&br=2468&bt=1234&cs=0&ds=3&ft=z_piDPWT2NvjVFxdSozfuCYQFAe4nRQjlj-~ItOB&mime_type=video_mp4&qs=0&rc=aDQ7aDY2M2UzZGhpN2U7M0BpM3Znbjo6Zm95ZjMzZjgzM0AtXi1gMGJgNS8xMWJiLWIwYSM0LV8ycjRfaDRgLS1kL2Nzcw%3D%3D&l=20220907024018010245248003036B4F5C&btag=80000',
+        url: require('../Datahome/video/video1.mp4'),
         image: require('../Datahome/avatar/img8.jpg'),
         nickName: 'hoathinhdaula',
         title: 'Đấu la Đại Lục',
@@ -217,7 +217,7 @@ export const DataHome = [
     },
     {
         id: 19,
-        url: 'https://v16-webapp.tiktok.com/93a498765a3729082a81d4e793c0c0d1/63185907/video/tos/useast2a/tos-useast2a-pve-0037c001-aiso/52f7625b2ee3459e96cf5ef357709b40/?a=1988&ch=0&cr=0&dr=0&lr=tiktok&cd=0%7C0%7C1%7C0&cv=1&br=2468&bt=1234&cs=0&ds=3&ft=z_piDPWT2NvjVFxdSozfuCYQFAe4nRQjlj-~ItOB&mime_type=video_mp4&qs=0&rc=aDQ7aDY2M2UzZGhpN2U7M0BpM3Znbjo6Zm95ZjMzZjgzM0AtXi1gMGJgNS8xMWJiLWIwYSM0LV8ycjRfaDRgLS1kL2Nzcw%3D%3D&l=20220907024018010245248003036B4F5C&btag=80000',
+        url: require('../Datahome/video/video1.mp4'),
         image: require('../Datahome/avatar/img9.jpg'),
         nickName: 'hoathinhdaula',
         title: 'Đấu la Đại Lục',
@@ -229,7 +229,7 @@ export const DataHome = [
     },
     {
         id: 20,
-        url: 'https://v16-webapp.tiktok.com/93a498765a3729082a81d4e793c0c0d1/63185907/video/tos/useast2a/tos-useast2a-pve-0037c001-aiso/52f7625b2ee3459e96cf5ef357709b40/?a=1988&ch=0&cr=0&dr=0&lr=tiktok&cd=0%7C0%7C1%7C0&cv=1&br=2468&bt=1234&cs=0&ds=3&ft=z_piDPWT2NvjVFxdSozfuCYQFAe4nRQjlj-~ItOB&mime_type=video_mp4&qs=0&rc=aDQ7aDY2M2UzZGhpN2U7M0BpM3Znbjo6Zm95ZjMzZjgzM0AtXi1gMGJgNS8xMWJiLWIwYSM0LV8ycjRfaDRgLS1kL2Nzcw%3D%3D&l=20220907024018010245248003036B4F5C&btag=80000',
+        url: require('../Datahome/video/video1.mp4'),
         image: require('../Datahome/avatar/img10.jpg'),
         nickName: 'hoathinhdaula',
         title: 'Đấu la Đại Lục',
