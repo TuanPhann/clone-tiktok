@@ -4,12 +4,49 @@ import styled from 'styled-components';
 import { Search } from '@styled-icons/evil/Search';
 import { ThreeDotsVertical } from '@styled-icons/bootstrap/ThreeDotsVertical';
 import { Add } from '@styled-icons/fluentui-system-filled/Add';
+
+import { Home } from '@styled-icons/boxicons-solid/Home';
+import { PeopleOutline } from '@styled-icons/evaicons-outline/PeopleOutline';
+import { Live } from '@styled-icons/remix-line/Live';
+import { CheckCircleFill } from '@styled-icons/bootstrap/CheckCircleFill';
 import { PlayFill } from '@styled-icons/bootstrap/PlayFill';
 import { VolumeUpOutline } from '@styled-icons/evaicons-outline/VolumeUpOutline';
 import { Flag } from '@styled-icons/feather/Flag';
 import { Heart } from '@styled-icons/boxicons-solid/Heart';
 import { MessageSquare } from '@styled-icons/evaicons-solid/MessageSquare';
 import { Share } from '@styled-icons/open-iconic/Share';
+
+const HomeIcon = styled(Home)`
+    width: 32px;
+    height: 32px;
+`;
+
+export const IconHome = () => <HomeIcon />;
+
+const FollowingIcon = styled(PeopleOutline)`
+    width: 32px;
+    height: 32px;
+`;
+
+export const IconFollowing = () => <FollowingIcon />;
+
+const LiveIcon = styled(Live)`
+    width: 32px;
+    height: 32px;
+`;
+
+export const IconLive = () => <LiveIcon />;
+
+const CheckIcon = styled(CheckCircleFill)`
+    width: 15px;
+    height: 15px;
+    color: rgba(32, 213, 236, 1);
+`;
+
+export const IconCheck = () => <CheckIcon />;
+
+
+
 
 //btn search  input
 const SearchIcon = styled(Search)`
