@@ -28,7 +28,6 @@ function Header() {
                 </Button>
                 <Button btnLogin>Đăng nhập</Button>
                 <Tippy
-                    showOnCreate
                     offset={[-80, 5]}
                     delay={[300, 400]}
                     hideOnClick
