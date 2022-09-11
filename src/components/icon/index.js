@@ -11,6 +11,8 @@ import { Flag } from '@styled-icons/feather/Flag';
 import { Heart } from '@styled-icons/boxicons-solid/Heart';
 import { MessageSquare } from '@styled-icons/evaicons-solid/MessageSquare';
 import { Share } from '@styled-icons/open-iconic/Share';
+import { Hashtag } from '@styled-icons/heroicons-outline/Hashtag';
+import { MusicNoteBeamed } from '@styled-icons/bootstrap/MusicNoteBeamed';
 
 //icon home phần sidebar
 export const IconHome = ({ className }) => {
