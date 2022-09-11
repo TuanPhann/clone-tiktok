@@ -12,17 +12,17 @@ function Sidebar() {
     return (
         <div className={cx('wrap')}>
             <div className={cx('header')}>
-                <NavLink to="/" className={cx('navlink')}>
-                    <IconHome />
+                <NavLink to="/" className={(nav) => cx('navlink', { active: nav.isActive })}>
+                    <IconHome className="iconSidebar" />
                     <h2>Dành cho bạn</h2>
                 </NavLink>
-                <NavLink to="/following" className={cx('navlink')}>
-                    <IconFollowing />
+                <NavLink to="/following" className={(nav) => cx('navlink', { active: nav.isActive })}>
+                    <IconFollowing className="iconSidebar" />
                     <h2>Đang Follow</h2>
                 </NavLink>
-                <NavLink to="/live" className={cx('navlink')}>
+                <NavLink to="/live" className={(nav) => cx('navlink', { active: nav.isActive })}>
                     <IconLive />
-                    <h2>LIVE</h2>
+                    <h2>Live</h2>
                 </NavLink>
             </div>
             <div className={cx('login')}>

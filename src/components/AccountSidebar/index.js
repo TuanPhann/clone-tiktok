@@ -1,12 +1,13 @@
 import styles from './StyleAccountSidebar.module.scss';
 import classNames from 'classnames/bind';
-import { IconCheck } from '../../components/icon';
+import Account from '../account';
 const cx = classNames.bind(styles);
 
 function AccountSidebar() {
     return (
         <div className={cx('wrap')}>
             <p className={cx('ptitle')}>Tài khoản được đề xuất</p>
+<<<<<<< HEAD
             <div className={cx('userlist')}>
                 <div className={cx('user')}>
                     <a href="https://www.tiktok.com/@theanh28entertainment" className={cx('avatar')}>
@@ -131,6 +132,9 @@ function AccountSidebar() {
                 </div>
                 <p className={cx('pseeall')}>Ẩn bớt</p>
             </div>
+=======
+            <Account />
+>>>>>>> f454688fa4663df7b8811f5f541cae73e50fbc52
             <div>
                 <p className={cx('pseeall')}>Xem tất cả</p>
             </div>
