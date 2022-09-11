@@ -8,6 +8,8 @@ import { Home } from '@styled-icons/boxicons-solid/Home';
 import { PeopleOutline } from '@styled-icons/evaicons-outline/PeopleOutline';
 import { Live } from '@styled-icons/remix-line/Live';
 import { CheckCircleFill } from '@styled-icons/bootstrap/CheckCircleFill';
+import { Hashtag } from '@styled-icons/heroicons-outline/Hashtag';
+import { MusicNoteBeamed } from '@styled-icons/bootstrap/MusicNoteBeamed';
 
 const HomeIcon = styled(Home)`
     width: 32px;
@@ -38,6 +40,19 @@ const CheckIcon = styled(CheckCircleFill)`
 
 export const IconCheck = () => <CheckIcon />;
 
+const HashtagIcon = styled(Hashtag)`
+    width: 16px;
+    height: 16px;
+`;
+
+export const IconHashtag = () => <HashtagIcon />;
+
+const MusicIcon = styled(MusicNoteBeamed)`
+    width: 16px;
+    height: 16px;
+`;
+
+export const IconMusic = () => <MusicIcon />;
 //btn search  input
 const SearchIcon = styled(Search)`
     color: #8f8f8f;

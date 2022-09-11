@@ -1,0 +1,60 @@
+.wrap {
+    padding: 16px 0 10px;
+    position: relative;
+    border-top: 1px solid rgba(241, 241, 241, 1);
+    margin: 0 8px;
+    .ptitle {
+        color: rgba(22, 24, 35, 0.75);
+        font-family: 'IBM Plex Sans', ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 16px;
+    }
+    .discoverlist {
+        display: flex;
+        flex-wrap: wrap;
+        .discoveritem {
+            display: flex;
+            height: 24px;
+            margin-bottom: 12px;
+            padding: 3px 10px;
+            border: 1px solid rgba(22, 24, 35, 0.2);
+            border-radius: 12px;
+            margin-right: 8px;
+            p {
+                width: fit-content;
+                color: rgba(22, 24, 35, 0.75);
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 18px;
+                padding-left: 6px;
+            }
+        }
+        .discoveritemmusic {
+            box-sizing: border-box;
+            display: flex;
+            height: 24px;
+            margin-bottom: 12px;
+            padding: 3px 10px;
+            border: 1px solid rgba(22, 24, 35, 0.2);
+            border-radius: 12px;
+            margin-right: 8px;
+            width: 316.2px;
+            p {
+                width: fit-content;
+                color: rgba(22, 24, 35, 0.75);
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 18px;
+                padding-left: 6px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+        a :hover {
+            background-color: rgba(241, 241, 241, 1);
+        }
+    }
+}

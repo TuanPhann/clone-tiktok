@@ -5,7 +5,7 @@
     font-size: 14px;
     line-height: 20px;
     position: relative;
-    border-top: 1px solid silver;
+    border-top: 1px solid rgba(241, 241, 241, 1);
     margin: 0 8px;
     .ptitle {
         margin-bottom: 3px;
@@ -19,9 +19,7 @@
         line-height: 20px;
         margin-top: 8px;
     }
-    .userseeall {
-        display: none;
-    }
+
     .user {
         display: flex;
         flex-direction: row;
@@ -60,10 +58,13 @@
             }
         }
     }
+    .userlist :hover {
+        background-color: rgba(241, 241, 241, 1);
+    }
+    .userseeall {
+        display: none;
+    }
     .pseeall :focus .userseeall {
         display: flex;
     }
-}
-.usercontainer :hover {
-    background-color: rgba(241, 241, 241, 1);
 }
