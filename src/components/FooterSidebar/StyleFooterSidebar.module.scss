@@ -1,0 +1,49 @@
+.wrap {
+    padding-top: 16px;
+    position: relative;
+    border-top: 1px solid rgba(241, 241, 241, 1);
+    margin: 0 8px;
+    .linklist {
+        margin-bottom: 8px;
+        a {
+            color: rgba(22, 24, 35, 0.5);
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 17px;
+            margin-right: 6px;
+            margin-top: 5px;
+        }
+    }
+    .divmore {
+        margin-bottom: 8px;
+        position: relative;
+        div {
+            display: none;
+        }
+        span {
+            color: rgba(22, 24, 35, 0.5);
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 17px;
+            display: inline-block;
+            margin-right: 6px;
+            margin-top: 5px;
+            cursor: pointer;
+        }
+        .span :hover .div {
+            display: flex;
+        }
+    }
+    .divmore :hover .div {
+        display: flex;
+    }
+    span {
+        color: rgba(22, 24, 35, 0.5);
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 17px;
+        display: inline-block;
+        margin-right: 6px;
+        margin-top: 5px;
+    }
+}

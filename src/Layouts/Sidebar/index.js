@@ -3,6 +3,8 @@ import classNames from 'classnames/bind';
 import { NavLink } from 'react-router-dom';
 import { IconFollowing, IconHome, IconLive } from '../../components/icon';
 import AccountSidebar from '../../components/AccountSidebar';
+import DiscoverSidebar from '../../components/DiscoverSidebar';
+import FooterSidebar from '../../components/FooterSidebar';
 
 const cx = classNames.bind(styles);
 
@@ -27,6 +29,8 @@ function Sidebar() {
                 <p>Đăng nhập để follow các tác giả, thích video và xem bình luận.</p>
             </div>
             <AccountSidebar />
+            <DiscoverSidebar />
+            <FooterSidebar />
         </div>
     );
 }
