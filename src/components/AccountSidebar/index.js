@@ -1,6 +1,6 @@
 import styles from './StyleAccountSidebar.module.scss';
 import classNames from 'classnames/bind';
-import Account from '../Account';
+import Account from '../account';
 import { DataAccount } from './../../Data/DataAccount';
 import Button from '../Button';
 
