@@ -2,6 +2,8 @@ import styles from './StyleAccountSidebar.module.scss';
 import classNames from 'classnames/bind';
 import ItemAccount from './itemAccount';
 import { DataAccountSb } from './../../Data/DataAccount';
+import Account from '../account';
+import { DataAccount } from './../../Data/DataAccount';
 import Button from '../Button';
 
 const cx = classNames.bind(styles);
