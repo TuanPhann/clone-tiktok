@@ -1,5 +1,7 @@
 import styles from './StyleAccountSidebar.module.scss';
 import classNames from 'classnames/bind';
+import ItemAccount from './itemAccount';
+import { DataAccountSb } from './../../Data/DataAccount';
 import Account from '../account';
 import { DataAccount } from './../../Data/DataAccount';
 import Button from '../Button';
@@ -10,8 +12,8 @@ function AccountSidebar() {
     return (
         <div className={cx('wrap')}>
             <p>Tài khoản được đề xuất</p>
-            {DataAccount.map((info) => {
-                return <Account key={info.id} info={info} />;
+            {DataAccountSb.map((info) => {
+                return <ItemAccount key={info.id} info={info} />;
             })}
             <div className={cx('button')}>
                 <Button btnAccountSb>Xem tất cả</Button>

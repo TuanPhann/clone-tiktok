@@ -1,4 +1,4 @@
-export const DataAccount = [
+export const DataAccountSb = [
     {
         id: 1,
         image: require('../DataAccount/avatar/img1.jpg'),
