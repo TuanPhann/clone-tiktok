@@ -100,13 +100,20 @@ export const IconMusic = () => {
     );
 };
 
-const CheckIcon = styled(CheckCircleFill)`
+const CheckIcon1 = styled(CheckCircleFill)`
     width: 15px;
     height: 15px;
     color: rgba(32, 213, 236, 1);
 `;
 
-export const IconCheck = () => <CheckIcon />;
+export const IconCheck1 = () => <CheckIcon1 />;
+const CheckIcon2 = styled(CheckCircleFill)`
+    width: 12px;
+    height: 12px;
+    color: rgba(32, 213, 236, 1);
+`;
+
+export const IconCheck2 = () => <CheckIcon2 />;
 
 //btn search  input
 const SearchIcon = styled(Search)`
