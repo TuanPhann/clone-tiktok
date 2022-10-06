@@ -28,3 +28,32 @@
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)), #fe2c55;
     }
 }
+.btnLoginSb {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    color: rgba(254, 44, 85, 1);
+    border-color: rgba(254, 44, 85, 1);
+    background-color: rgba(255, 255, 255, 1);
+    min-width: 168px;
+    min-height: 48px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+    font-family: SofiaPro, PingFangSC, sans-serif;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+
+    &:hover {
+        background-color: rgba(254, 44, 85, 0.06);
+    }
+}
+.btnAccountSb {
+    color: rgb(254, 44, 85);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 1);
+}

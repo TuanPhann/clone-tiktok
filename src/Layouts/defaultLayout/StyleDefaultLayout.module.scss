@@ -22,11 +22,9 @@
             height: calc(100vh - 100px);
             position: fixed;
             top: 60px;
+            overflow: auto;
         }
         .content {
-            width: 692px;
-            margin-left: 425px;
-            padding-top: 24px;
         }
     }
 }

@@ -1,10 +1,10 @@
-import styles from './StyleItemContent.module.scss';
+import styles from './StyleItemHome.module.scss';
 import classNames from 'classnames/bind';
 import { IconPlayFill, IconVolumeUpOutline, IconFlag, IconHeart, IconMessageSquare, IconShare } from '../../icon';
 
 const cx = classNames.bind(styles);
 
-function ItemContent({ info }) {
+function ItemHomeContent({ info }) {
     return (
         <div className={cx('wrap')}>
             <div className={cx('avatar')}>
@@ -62,4 +62,4 @@ function ItemContent({ info }) {
     );
 }
 
-export default ItemContent;
+export default ItemHomeContent;
