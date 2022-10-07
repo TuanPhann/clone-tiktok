@@ -24,6 +24,7 @@
     .info-video {
         margin-left: 12px;
         width: 624px;
+        position: relative;
 
         .title {
             display: flex;
@@ -141,6 +142,12 @@
                     }
                 }
             }
+        }
+
+        .btn-follow {
+            position: absolute;
+            top: 20px;
+            right: 0;
         }
     }
 }

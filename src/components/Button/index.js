@@ -10,6 +10,7 @@ function Button({
     href,
     iconLeft = false,
     btnUpload = false,
+    btnfollow = false,
     btnLogin = false,
     btnLoginSb = false,
     btnAccountSb = false,
@@ -23,7 +24,7 @@ function Button({
         onClick,
         ...props,
     };
-    const classes = cx('wrapper', { btnUpload, btnLogin, btnLoginSb, btnAccountSb });
+    const classes = cx('wrapper', { btnUpload, btnLogin, btnLoginSb, btnAccountSb, btnfollow });
 
     if (to) {
         Props.to = to;

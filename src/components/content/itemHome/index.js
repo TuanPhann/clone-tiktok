@@ -1,6 +1,7 @@
 import styles from './StyleItemHome.module.scss';
 import classNames from 'classnames/bind';
 import { IconPlayFill, IconVolumeUpOutline, IconFlag, IconHeart, IconMessageSquare, IconShare } from '../../icon';
+import Button from '../../Button';
 
 const cx = classNames.bind(styles);
 
@@ -56,6 +57,9 @@ function ItemHomeContent({ info }) {
                             <p>{info.totalShare}</p>
                         </div>
                     </div>
+                </div>
+                <div className={cx('btn-follow')}>
+                    <Button btnfollow>Follow</Button>
                 </div>
             </div>
         </div>
